@@ -1,0 +1,27 @@
+.acwrap {
+  width: 600px;
+  margin: 30px auto 0;
+  padding-left: 200px; }
+
+.access dl {
+  width: 560px; }
+.access dt, .access dd {
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px; }
+.access dt {
+  width: 90px;
+  float: left;
+  background-color: rgba(77, 52, 41, 0.9);
+  color: white; }
+.access dd {
+  width: 190px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black; }
+
+.map {
+  width: 540px;
+  background-color: white;
+  border: solid 1px #ccc;
+  padding: 10px; }

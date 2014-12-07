@@ -1,0 +1,130 @@
+body {
+  font-family: 'Merienda', cursive;
+  background-color: #F0E68C;
+  background-image: url("../image/ham.jpg"); }
+
+.usagi {
+  font-family: 'Merienda', cursive; }
+
+table {
+  border: 1px solid #CCC;
+  box-shadow: 0 1px 1px #CCC;
+  margin: 1px auto; }
+
+table th,
+table td {
+  padding: 10px;
+  background: #FFF;
+  border-bottom: solid 1px #CCC;
+  border-right: solid 1px #CCC; }
+
+table th {
+  background: #e3dcd5;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  color: #69655c; }
+
+/* -----------------------
+  左上角丸　最初の行の最初のセル
+----------------------- */
+.table tr:first-child th:first-child,
+.table tr:first-child td:first-child {
+  -webkit-border-radius: 6px 0 0 0;
+  -moz-border-radius: 6px 0 0 0;
+  -o-border-radius: 6px 0 0 0;
+  border-radius: 6px 0 0 0; }
+
+/* -----------------------
+  右上角丸　最初の行の最後のセル
+----------------------- */
+.table tr:first-child th:last-child,
+.table tr:first-child td:last-child {
+  -webkit-border-radius: 0 6px 0 0;
+  -moz-border-radius: 0 6px 0 0;
+  -o-border-radius: 0 6px 0 0;
+  border-radius: 0 6px 0 0; }
+
+/* -----------------------
+  左下角丸　最後の行の最初のセル
+----------------------- */
+.table tr:last-child th:first-child,
+.table tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 6px;
+  -moz-border-radius: 0 0 0 6px;
+  -o-border-radius: 0 0 0 6px;
+  border-radius: 0 0 0 6px; }
+
+/* -----------------------
+  右下角丸　最後の行の最後のセル
+----------------------- */
+.table tr:last-child th:last-child,
+.table tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 6px 0;
+  -moz-border-radius: 0 0 6px 0;
+  -o-border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px 0; }
+
+/* --------------------------------------------
+  thaed,tbodyを使う場合の設定
+-------------------------------------------- */
+.table thead th {
+  background: #e3dcd5; }
+
+.table thead + tbody th {
+  background: #f4ede6; }
+
+.table tbody th {
+  text-align: left; }
+
+/*IE*/
+/* -----------------------
+  左上角丸 thead内　最初の行の最初のセル
+----------------------- */
+.table thead tr:first-child th:first-child,
+.table thead tr:first-child td:first-child {
+  -webkit-border-radius: 6px 0 0 0;
+  -moz-border-radius: 6px 0 0 0;
+  -o-border-radius: 6px 0 0 0;
+  border-radius: 6px 0 0 0; }
+
+/* -----------------------
+  右上角丸 thead内　最初の行の最後のセル
+----------------------- */
+.table thead tr:first-child th:last-child,
+.table thead tr:first-child td:last-child {
+  -webkit-border-radius: 0 6px 0 0;
+  -moz-border-radius: 0 6px 0 0;
+  -o-border-radius: 0 6px 0 0;
+  border-radius: 0 6px 0 0; }
+
+/* -----------------------
+  角丸なし　thaedの後のtbody 最初の行の最初のセル
+  角丸なし　thaedの後のtbody 最初の行の最後のセル
+----------------------- */
+.table thead + tbody tr:first-child th:first-child,
+.table thead + tbody tr:first-child td:first-child,
+.table thead + tbody tr:first-child th:last-child,
+.table thead + tbody tr:first-child td:last-child {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px; }
+
+/* -----------------------
+  左下角丸　thaedの後のtbody 最後の行の最初のセル
+----------------------- */
+.table thead + tbody tr:last-child th:first-child,
+.table thead + tbody tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 6px;
+  -moz-border-radius: 0 0 0 6px;
+  -o-border-radius: 0 0 0 6px;
+  border-radius: 0 0 0 6px; }
+
+/* -----------------------
+  右下角丸　thaedの後のtbody 最後の行の最後のセル
+----------------------- */
+.table thead + tbody tr:last-child th:last-child,
+.table thead + tbody tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 6px 0;
+  -moz-border-radius: 0 0 6px 0;
+  -o-border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px 0; }
